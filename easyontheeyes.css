@@ -1,0 +1,267 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+body {
+	text-align: center;
+	margin: 0;
+	font-size: 22px;
+}
+a {
+	color: inherit;
+}
+pre {
+	color: white;
+	background: #333;
+	padding: 1.5em;
+	-webkit-tab-size: 4;
+	-moz-tab-size: 4;
+	-ms-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+blockquote {
+	font-style: italic;
+}
+	blockquote small {
+		display: block;
+		font-style: normal;
+		color: #666;
+	}
+
+#message {
+	line-height: 1.5em;
+	color: white;
+	background-color: #8B0000; /* darkred */
+	position: fixed;
+	top: 3em;
+	left: 3em;
+	border: 1px solid #DA0B00;
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	padding: 20px;
+}
+	#message .error {
+		margin: 0;
+		margin-top: 0.5em;
+	}
+		#message .error li:first-child {
+			display: none;
+		}
+
+#header,
+.posts,
+#footer {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+	text-align: left;
+	color: #333;
+	font-family: "Open Sans", sans-serif;
+}
+	#topNavigation {
+		color: #999;
+		font-size: 16px;
+		padding-top: 1em;
+		line-height: 1em;
+	}
+	#pageTitle {
+		width: 100%;
+		font-family: "Open Sans Condensed", sans-serif;
+		font-weight: 300;
+		font-size: 132px;
+		margin: 0.25em 0 0.75em 0;
+		line-height: 1em;
+	}
+.homePost {
+	overflow: auto;
+		margin-bottom: 8em;
+}
+	.homePostMeta {
+		float: left;
+		width: 335px;
+		clear: left;
+	}
+		.homePostMeta a {
+			text-decoration: none;
+		}
+		.homePostMeta a:hover {
+			text-decoration: underline;
+		}
+		.homePostMeta h2 {
+			margin: 0 0 0.25em 0;
+			font-family: "Open Sans Condensed", sans-serif;
+			font-size: 28px;
+			line-height: 1.5em;
+		}
+			.homePostDate {
+				display: block;
+				color: #999;
+				font-size: 22px;
+				font-weight: 300;
+				margin-bottom: 0.6em;
+			}
+			.homePostComments {
+				display: block;
+				font-size: 16px;
+				color: #999;
+				font-weight: 300;
+				margin-bottom: 0.4em;
+			}
+			.homePostLikes {
+				display: none; /* block */
+				font-size: 16px;
+				color: #999;
+				font-weight: 300;
+			}
+	.homePostContent {
+		float: left;
+		width: 600px;
+		padding-left: 25px;
+	}
+	.postContent {
+		float: left;
+		width: 600px;
+		padding-right: 25px;
+		margin-bottom: 1.5em;
+	}
+	.content {
+		line-height: 1.5em;
+		font-weight: 300;
+	}
+		.content p:first-child {
+			margin-top: 0;
+		}
+		.content h1:first-child {
+			margin-top: 0;
+			line-height: 1.2em;
+		}
+		.content h2:first-child {
+			margin-top: 0;
+			line-height: 1.1em;
+		}
+		.content img:first-child {
+			margin-top: 0;
+		}
+		.content b,
+		.content strong {
+			font-weight: 600;
+		}
+		.content h1,
+		.content h2,
+		.content h3,
+		.content h4,
+		.content h5,
+		.content h6 {
+			font-family: "Ubuntu", sans-serif;
+			font-weight: 500;
+		}
+	.postDate {
+		float: left;
+		width: 335px;
+		color: #999;
+		font-weight: 300;
+	}
+	.empty {
+		float: left;
+		width: 600px;
+		padding-right: 25px;
+	}
+	.comments {
+		float: left;
+		width: 335px;
+		margin-bottom: 8em;
+		font-size: 16px;
+		color: #666;
+	}
+		#comment-public {
+			margin-bottom: 3em;
+			overflow: hidden;
+			height: 70px;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+			#comment-public .error {
+				display: none;
+			}
+			.formcontrol {
+				margin: 10px 0;
+			}
+				.formcontrol label {
+					display: block;
+				}
+				.required {
+					color: red;
+				}
+				.formcontrol input {
+					width: 98%;
+				}
+				textarea.formcontrol {
+					margin: 0;
+					width: 97%;
+					height: 1.5em;
+					resize: none;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					-ms-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+				}
+			#cf_disclaimer {
+				float: left;
+			}
+			#cf_submit {
+				float: right;
+			}
+				#cf_submit input {
+					width: auto;
+					padding: 0.1em 1em;
+				}
+		#comment-public.activated {
+			height: 390px;
+		}
+				#comment-public.activated textarea.formcontrol {
+					height: 7em;
+				}
+		.commentsTitle {
+			font-size: 22px;
+			color: #333;
+		}
+		.comment {
+			padding-left: 24px;
+			border-left: 1px solid red;
+			clear: both;
+			margin-bottom: 3em;
+		}
+			.comment p {
+				margin-bottom: 0.2em;
+			}
+			.comment span {
+				font-size: 14px;
+				color: #999;
+			}
+			.commentAuthor {
+				float: left;
+			}
+			.commentDate {
+				float: right;
+			}
+#footer {
+	clear: both;
+	overflow: auto;
+	font-size: 16px;
+	margin-top: 8em;
+	border-top: 1px solid #ccc;
+	color: #999;
+}
+	.floatLeft {
+		padding: 3em 2em 3em 0;
+		float: left;
+	}
+	.floatRight {
+		padding: 3em 0 3em 2em;
+		float: right;
+	}

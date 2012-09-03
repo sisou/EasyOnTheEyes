@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pluggable type="theme">
+	<name>EasyOnTheEyes</name>
+	<class>EasyOnTheEyes</class>
+	<author>Sören Schwert</author>
+	<url>http://soerenschwert.de</url>
+	<version>1</version>
+	<description>
+	This is a minimalist tumblr-like theme with it's design working mostly through the font and type of the content. --- Note: Preview-Images should be 600px wide, as the theme is not yet responsive and 600px is the width of the content column. --- It has version #1 because the theme is already usable.
+	</description>
+	<template_engine>rawphpengine</template_engine>
+</pluggable>
