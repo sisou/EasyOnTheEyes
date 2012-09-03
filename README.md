@@ -11,12 +11,12 @@ This is a minimalist theme for the blogging engine Habari.
 
 ## Using the theme
 
-The theme is using the same technique as the [FitText jQuery plugin](http://fittextjs.com). Therefore you need to manually set the factor by which each title will be scaled manually for each post! The input for that is under the editing-area behind the button saying **Theme Settings**.
+The theme is using a technique *borrowed* from the [FitText jQuery plugin](http://fittextjs.com) for post titles. Therefore you need to set the factor by which each title will be scaled manually for each post! The input for that is under the editing-area behind the button saying **Theme Settings**.
 
 The scale reaches from 1 to 0.
 1 is smallest, 0 is biggest.
 
-(I plan on automating this through a Trial-and-Error function when a post is saved.)
+(I plan on automating this through a trial-and-error function in the near future.)
 
 ## Attention
 
@@ -26,6 +26,9 @@ The scale reaches from 1 to 0.
 
 ## Roadmap / TODO
 
+Plans for the future (in no specific order)
+
+* Range-Input for the *Page Title Scaling Factor* on the Post-Preview-Page
 * Responsiveness
 * Image galleries
 * Plugins for the admin-area
